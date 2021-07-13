@@ -1,0 +1,50 @@
+a:link, a:visited
+	{
+		background-color: yellow;
+		columns: peachpuff;
+		text-decoration: none;
+		padding:20px;
+		text-align: center;
+		display: inline-block;
+		font-family: Teko;
+		
+	}
+
+a:visited
+
+a:hover
+	{
+		color: cadetblue;
+		background-color: whitesmoke;
+		text-decoration: underline;
+	}
+
+a:active
+		{
+			color: green;
+			background-color: yellow;
+			text-decoration: underline;
+		}
+
+table, tr, td
+		{
+				border: 2px solid black;
+				border-collapse: collapse;
+				padding: 16px;
+				width: 30%
+		}
+
+tr:nth-child(even)
+		{
+				background-color: #fff8b6;
+		}
+
+tr:nth-child(odd)
+		{
+				background-color: #ffd3b6;
+		}
+
+tr:hover
+		{
+				background-color: #b6ffd3;
+		}
